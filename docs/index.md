@@ -43,5 +43,5 @@ Comment:
 | [2020 牛客国庆集训派对 Day4](./2020/nowcoder-national-day-training-party/day4/index.md) | 2020.10.04 | 34/294 |  5/10  |
 | [2020 牛客国庆集训派对 Day5](./2020/nowcoder-national-day-training-party/day5/index.md) | 2020.10.05 | 12/277 |  5/11  |
 | [2020 牛客国庆集训派对 Day6](./2020/nowcoder-national-day-training-party/day6/index.md) | 2020.10.06 | 12/252 |  5/11  |
-|                             [2020 牛客国庆集训派对 Day7]()                              | 2020.10.07 | 12/249 |  5/11  |
+| [2020 牛客国庆集训派对 Day7](./2020/nowcoder-national-day-training-party/day7/index.md) | 2020.10.07 | 12/249 |  5/11  |
 |                             [2020 牛客国庆集训派对 Day8]()                              | 2020.10.08 | 15/164 |  6/11  |
