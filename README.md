@@ -1,4 +1,4 @@
-# [name]
+# WIKI
 
-[![Lint](https://github.com/Dup4/mkdocs-material-docs-starter/actions/workflows/lint.yml/badge.svg)](https://github.com/Dup4/mkdocs-material-docs-starter/actions/workflows/lint.yml)
-[![Build Doc](https://github.com/Dup4/mkdocs-material-docs-starter/actions/workflows/build_doc.yml/badge.svg)](https://github.com/Dup4/mkdocs-material-docs-starter/actions/workflows/build_doc.yml)
+[![Lint](https://github.com/TI1049/wiki/actions/workflows/lint.yml/badge.svg)](https://github.com/TI1049/wiki/actions/workflows/lint.yml)
+[![Build Doc](https://github.com/TI1049/wiki/actions/workflows/build_doc.yml/badge.svg)](https://github.com/TI1049/wiki/actions/workflows/build_doc.yml)
