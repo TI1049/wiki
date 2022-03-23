@@ -1,16 +1,16 @@
-site_name: docs started
-site_url: https://dup4.github.io/mkdocs-material-docs-starter/
-site_author: Dup4
+site_name: TI1049 Wiki
+site_url: https://ti1049.github.io/wiki/
+site_author: TI1049
 site_description: >-
-  mkdocs-material-docs-starter
+  TI1049 ACM/ICPC Team Wiki
 
 # Repository
-repo_name: Dup4/mkdocs-material-docs-starter
-repo_url: https://github.com/Dup4/mkdocs-material-docs-starter
+repo_name: TI1049/wiki
+repo_url: https://github.com/TI049/wiki
 edit_uri: tree/main/docs
 
 # Copyright
-copyright: Copyright &copy; 2022 - Present <a href="https://github.com/Dup4" target="_blank" rel="noopener">Dup4</a>
+copyright: Copyright &copy; 2020 - Present <a href="https://github.com/TI1049" target="_blank" rel="noopener">TI1049</a>
 
 # Configuration
 theme:
@@ -60,10 +60,11 @@ theme:
         name: Switch to light mode
 
   font:
-    text: Roboto
+    text: Georgia
     code: Roboto Mono
 
   favicon: assets/favicon.png
+
   icon:
     repo: fontawesome/brands/github
     logo: material/airplane
@@ -90,7 +91,7 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Dup4/mkdocs-material-docs-starter
+      link: https://github.com/TI1049/wiki
 
 # Extensions
 markdown_extensions:
@@ -161,6 +162,3 @@ markdown_extensions:
   - pymdownx.saneheaders:
 
 docs_dir: docs
-
-nav:
-  - Getting Started: index.md
