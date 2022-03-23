@@ -140,9 +140,9 @@ Solved By Dup4. 00:13(+)
 #### 思路
 
 ??? info "Code"
-    ```python
+    ```py
     ---8<--
-    2020/random-trainings/17th-cjlu-cpc/solutions/f.python
+    2020/random-trainings/17th-cjlu-cpc/solutions/f.py
     ---8<--
     ```
 
