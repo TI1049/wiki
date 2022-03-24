@@ -124,7 +124,7 @@ Solved By Dup4. 01:28(+)
 
 #### 思路
 
-$[1, n]$ 中的因子数之和的答案是 $ \displaystyle \sum\limits_{i = 1}^n \lfloor \frac{n}{i} \rfloor  $。
+$[1, n]$ 中的因子数之和的答案是 $\displaystyle \sum\limits_{i = 1}^n \lfloor \frac{n}{i} \rfloor$。
 
 ??? info "Code"
     ```cpp
