@@ -4,6 +4,10 @@
         [
             "remark-lint-no-duplicate-headings",
             false
+        ],
+        [
+            "remark-lint-list-item-content-indent",
+            false
         ]
     ]
 }

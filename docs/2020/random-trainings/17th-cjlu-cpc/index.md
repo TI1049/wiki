@@ -162,14 +162,14 @@ Upsolved By Dup4.
 * 根据度数分成大点和小点。
 * 显然小点的答案很好算，复杂度 $\mathcal{O}(\sqrt{n})$。
 * 对于大点，只有 $\sqrt{n}$ 个大点，对于每个大点都维护一个 `BitSet`，然后对于每次更新颜色都修改一下大点的 `BitSet` 中的对应位置。
-  * 我不知道 `C++` 中的 `BitSet` 怎么实现的，也不知道修改单点信息的复杂度是多少，但是如果自己写一个 `BitSet`，修改单点信息是能够做到 $\mathcal{O}(1)$ 的。
-  * 对于大点答案的查询，复杂度是 $\mathcal{O}(\frac{n}{w})$。
+    * 我不知道 `C++` 中的 `BitSet` 怎么实现的，也不知道修改单点信息的复杂度是多少，但是如果自己写一个 `BitSet`，修改单点信息是能够做到 $\mathcal{O}(1)$ 的。
+    * 对于大点答案的查询，复杂度是 $\mathcal{O}(\frac{n}{w})$。
 * 所以最优情况下，能够做到 $\displaystyle \mathcal{O} (\frac{n^2}{w} + n \cdot \sqrt{n})$。
 * 其实也可以用树状数组来维护，查询的时候二分即可，这样复杂度是 $\mathcal{\log^2 n}$，如果用线段树的话，查询复杂度能够做到 $\mathcal{o}(\log n)$。但是更新的时候线段树常数大，树状数组常数小。感觉没什么差别。这样的话，复杂度能够做到 $\mathcal{O}(n \cdot \sqrt{n} \cdot \log n + n \cdot \log^2 n)$。
 * 我感觉题意有点问题：
-  > * Type 1:`1 u x`($0 \leq x \leq 10^9$)–Change the colour of area $u$ to $x$.
-  > * Type 2:`2 u`–At this time, the little beauty wants to draw area u, YHH will pass a brush according to the above rules, which number is what you should print.
-  * 说实话，从这两句话我看不出第 $2$ 种操作后也需要将 $u$ 的颜色更改为询问的答案，但是实际上是要这么做的，但是这好像给「强制在线」提供了一种比较好的思路。
+    > * Type 1:`1 u x`($0 \leq x \leq 10^9$)–Change the colour of area $u$ to $x$.
+    > * Type 2:`2 u`–At this time, the little beauty wants to draw area u, YHH will pass a brush according to the above rules, which number is what you should print.
+    * 说实话，从这两句话我看不出第 $2$ 种操作后也需要将 $u$ 的颜色更改为询问的答案，但是实际上是要这么做的，但是这好像给「强制在线」提供了一种比较好的思路。
 
 ??? info "Code"
     ```cpp

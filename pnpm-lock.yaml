@@ -3,14 +3,16 @@ lockfileVersion: 5.3
 specifiers:
   mkdocs-render-math-ssr: ^1.0.5
   remark-cli: ^10.0.1
+  remark-lint-list-item-content-indent: ^3.1.1
   remark-lint-no-duplicate-headings: ^3.1.1
-  remark-preset-lint-mkdocs-material: ^0.6.0
+  remark-preset-lint-mkdocs-material: ^0.7.0
 
 devDependencies:
   mkdocs-render-math-ssr: 1.0.5
   remark-cli: 10.0.1
+  remark-lint-list-item-content-indent: 3.1.1
   remark-lint-no-duplicate-headings: 3.1.1
-  remark-preset-lint-mkdocs-material: 0.6.0
+  remark-preset-lint-mkdocs-material: 0.7.0
 
 packages:
 
@@ -1931,8 +1933,8 @@ packages:
       - supports-color
     dev: true
 
-  /remark-preset-lint-mkdocs-material/0.6.0:
-    resolution: {integrity: sha512-oJT7jM/OJzzMwmljW4KTHS1d1P7bbhHDNd2F/awuJ7LIbY69Y6gel5S3F772lf7xQvs6FjkUaL0Z3tjC4ME2tg==}
+  /remark-preset-lint-mkdocs-material/0.7.0:
+    resolution: {integrity: sha512-TP6H40v5E58MyrapZm3Ygkx+BqX2E7UWuLb4fbgHmd+rHIze6j2PW+u2Y4f6QglpbuQ/aVMJF15tKDsZoQqs2Q==}
     dependencies:
       '@types/mdast': 3.0.10
       remark-copywriting-correct: 0.5.0
